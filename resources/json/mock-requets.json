@@ -1,0 +1,210 @@
+{
+  "navbar": {
+    "brandPrefix": "Zero",
+    "brandHighlight": "T",
+    "brandSuffix": "rust",
+    "phone": "+57 320 555 0101",
+    "menu": [
+      {
+        "id": 1,
+        "label": "Home",
+        "href": "#home",
+        "active": true
+      },
+      {
+        "id": 2,
+        "label": "About Us",
+        "href": "#about"
+      },
+      {
+        "id": 3,
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "id": 4,
+        "label": "Latest News",
+        "href": "#news"
+      },
+      {
+        "id": 5,
+        "label": "Pricing",
+        "href": "#pricing"
+      }
+    ]
+  },
+  "hero": {
+    "slides": [
+      {
+        "id": 1,
+        "backgroundClass": "",
+        "lead": "Zero Trust Frontend",
+        "title": "Protect Every Access",
+        "description": "Valida identidad, dispositivo y contexto antes de permitir cualquier acceso (Back).",
+        "ctaHref": "#about"
+      },
+      {
+        "id": 2,
+        "backgroundClass": "t2",
+        "lead": "Security Operations",
+        "title": "Continuous Verification",
+        "description": "Monitoreo activo y respuestas automaticas para reducir superficie de ataque (Back).",
+        "ctaHref": "#services"
+      },
+      {
+        "id": 3,
+        "backgroundClass": "t3",
+        "lead": "Compliance Ready",
+        "title": "Auditable By Design",
+        "description": "Trazabilidad completa de eventos y controles para cumplimiento y auditoria (Back).",
+        "ctaHref": "#pricing"
+      }
+    ]
+  },
+  "about": {
+    "sectionTitle": "About Us",
+    "image": "/images/ab.jpg",
+    "imageAlt": "About zero trust",
+    "overlayTitle": "Zero Trust",
+    "overlayDescription": "Arquitectura moderna para proteger usuarios, endpoints y servicios.",
+    "headline": "Ciberseguridad centrada en identidad",
+    "paragraphs": [
+      "Implementamos controles de acceso adaptativos para validar usuario, dispositivo y riesgo en tiempo real.",
+      "Combinamos autenticacion fuerte, segmentacion y observabilidad para una postura de seguridad resiliente."
+    ],
+    "signatureImage": "/images/sign.png",
+    "signatureName": "Security Team Lead"
+  },
+  "services": {
+    "sectionTitle": "Services",
+    "items": [
+      {
+        "id": 1,
+        "icon": "fa-shield",
+        "title": "Identity Enforcement",
+        "description": "Control de acceso con politicas basadas en riesgo y contexto."
+      },
+      {
+        "id": 2,
+        "icon": "fa-user-secret",
+        "title": "Threat Detection",
+        "description": "Deteccion de actividades anomalias y respuesta temprana."
+      },
+      {
+        "id": 3,
+        "icon": "fa-lock",
+        "title": "Data Protection",
+        "description": "Proteccion de datos en reposo y en transito con cifrado robusto."
+      },
+      {
+        "id": 4,
+        "icon": "fa-server",
+        "title": "Secure Infrastructure",
+        "description": "Endurecimiento de servicios y segmentacion de redes criticas."
+      }
+    ]
+  },
+  "news": {
+    "sectionTitle": "Latest News",
+    "items": [
+      {
+        "id": 1,
+        "title": "Nueva politica de acceso condicional",
+        "date": "Apr 01, 2026",
+        "followers": "7685",
+        "summary": "Activamos validacion reforzada para accesos fuera de ubicaciones habituales.",
+        "image": "/images/n3.jpg",
+        "link": "#",
+        "modalTarget": "#myModal"
+      },
+      {
+        "id": 2,
+        "title": "Mejora en monitoreo de endpoints",
+        "date": "Apr 02, 2026",
+        "followers": "2546",
+        "summary": "Nuevas reglas para detectar comportamiento sospechoso en estaciones de trabajo.",
+        "image": "/images/n1.jpg",
+        "link": "#",
+        "modalTarget": "#myModal"
+      },
+      {
+        "id": 3,
+        "title": "Panel unificado de alertas",
+        "date": "Apr 03, 2026",
+        "followers": "7485",
+        "summary": "Unificamos eventos de autenticacion, red y aplicaciones en un solo tablero.",
+        "image": "/images/n2.jpg",
+        "link": "#",
+        "modalTarget": "#myModal"
+      }
+    ],
+    "newsletter": {
+      "title": "News Letter",
+      "subtitle": "Never Miss Any Update From Us!",
+      "placeholder": "Email...",
+      "buttonLabel": "Subscribe"
+    },
+    "modal": {
+      "heading": "Zero Trust News",
+      "subheading": "Our Top Security Update",
+      "image": "/images/n1.jpg",
+      "content": "Publicamos una nueva linea base de seguridad con controles preventivos, deteccion temprana y trazabilidad para auditoria continua."
+    }
+  },
+  "pricing": {
+    "sectionTitle": "Pricing Tables",
+    "plans": [
+      {
+        "id": 1,
+        "price": "$425",
+        "title": "Starter",
+        "features": [
+          "Acceso con MFA",
+          "Monitoreo basico",
+          "Reglas de acceso por rol",
+          "Soporte en horario laboral",
+          "Reportes mensuales"
+        ],
+        "buttonLabel": "Book Now",
+        "cardClass": "pricing-grid1",
+        "priceClass": "",
+        "cartClass": "cart1",
+        "listItemHighlightClass": "whyt"
+      },
+      {
+        "id": 2,
+        "price": "$856",
+        "title": "Professional",
+        "features": [
+          "Todo lo de Starter",
+          "Evaluacion continua de dispositivos",
+          "Alertas por riesgo contextual",
+          "Integracion SIEM",
+          "Reportes semanales"
+        ],
+        "buttonLabel": "Book Now",
+        "cardClass": "pricing-grid2",
+        "priceClass": "two",
+        "cartClass": "cart2",
+        "listItemHighlightClass": "whyt"
+      },
+      {
+        "id": 3,
+        "price": "$1268",
+        "title": "Enterprise",
+        "features": [
+          "Todo lo de Professional",
+          "Automatizacion SOAR",
+          "Segmentacion avanzada",
+          "Hardening guiado",
+          "Soporte prioritario 24/7"
+        ],
+        "buttonLabel": "Book Now",
+        "cardClass": "pricing-grid3",
+        "priceClass": "three",
+        "cartClass": "cart3",
+        "listItemHighlightClass": "whyt"
+      }
+    ]
+  }
+}
